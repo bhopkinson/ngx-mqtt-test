@@ -11,7 +11,7 @@ import { MqttModule } from "ngx-mqtt";
   imports: [
     BrowserModule,
     FormsModule,
-    MqttModule.forRoot({ connectOnCreate: false})
+    MqttModule.forRoot({ connectOnCreate: true })
   ],
   declarations: [ AppComponent, HelloComponent ],
   bootstrap:    [ AppComponent ]
